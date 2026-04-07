@@ -1,4 +1,36 @@
-header {
+/* headerblock CSS */   
+
+.HeaderContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #fcfbfd;
+    border: 2px solid #dadadd;
 }
+
+a { 
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin-right: 50px;
+}
+
+a+a {
+    margin-left: 10px;
+}
+
+.HeaderContainer img {
+    width: 10%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* HERO section CSS */
+
