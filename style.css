@@ -1,7 +1,11 @@
 /* General */
 h1, h2, p, nav {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Trebuchet MS;
     color: #696a71;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 /* headerblock CSS */   
@@ -71,21 +75,26 @@ nav {
 
 .DiscProductShowcase {
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 5px;
+    margin: 0;
 }
 
 figure {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px;
     border: 1px dotted gray;
-    margin: 20px; /* adjust as needed */
 }
+
 figure img {
-    margin: 0;
-    width: 350px;
+    width: 100%;
+    max-width: 250px;
     height: auto;
-    vertical-align: top;
 }
-figure figcaption {
+
+figcaption {
     text-align: center;
+    margin-top: 10px;
 }
