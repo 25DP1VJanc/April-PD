@@ -77,6 +77,7 @@ nav {
 }
 
 #SearchAndFilter {
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -119,18 +120,21 @@ figure div {
 
 .OldPrice {
     color: #BB7E8C;
-    font-weight: thin;
+    font-size: larger;
+    font-weight: 300;
     text-decoration: line-through;
 }
 
 .NewPrice {
     color: #E6E8E6;
     font-weight: bolder;
+    font-size: xx-large;
 }
 
 .ProductCaption {
     color: #3A6EA5;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 /* Footer */
